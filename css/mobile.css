@@ -1,0 +1,127 @@
+@media screen and (min-width: 769px) and (max-width: 940px) {
+  header {
+    padding: 0 2rem;
+  }
+  .players-feedback .feedback {
+    padding: 2rem;
+    padding-top: 0;
+  }
+  .footer-container {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fab {
+    display: block;
+    bottom: 1rem;
+    right: 0.5rem;
+    float: right;
+    position: sticky;
+  }
+  header {
+    position: relative;
+  }
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .main-nav {
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  .hero {
+    padding: 0 1rem;
+  }
+  .hero .large-title {
+    padding: 1rem;
+  }
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .differences-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .available-contests-container-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .available-contests-container-2 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .name {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .description {
+    text-align: center;
+  }
+  .rf {
+    padding-right: 0;
+  }
+  .bf {
+    padding-left: 0;
+  }
+  .players-feedback .feedback {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    padding-top: 0;
+  }
+  .main-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-container .list .links {
+    line-height: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+  }
+  .main-nav {
+    text-align: center;
+    display: none;
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .navbar {
+    padding: 1rem 0 0 0;
+  }
+  .nav-items {
+    border: 1px solid #151518;
+  }
+  .nav-items:last-child {
+    border: none;
+    margin-top: 1rem;
+  }
+  .main-nav a {
+    display: block;
+    margin: 0;
+    padding: 1rem;
+  }
+  .main-nav .nav-items.button {
+    border-radius: 0;
+  }
+  #toggle:checked + .main-nav {
+    display: block;
+  }
+  .faq {
+    grid-template-columns: 1fr;
+  }
+  .players-feedback .feedback {
+    grid-template-columns: 1fr;
+  }
+}
