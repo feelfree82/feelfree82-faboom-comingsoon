@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Faboom Fantasy Cricket",
   "main": "index.js",
-  "homepage": "http://feelfree82.github.io/feelfree82-faboom",
+  "homepage": "https://feelfree82.github.io/feelfree82-faboom-comingsoon",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
