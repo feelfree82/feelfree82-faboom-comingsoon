@@ -657,3 +657,7 @@ h2.secondary {
     grid-template-columns: 1fr;
   }
 }
+
+.ungli-link {
+  color: #fff;
+}
